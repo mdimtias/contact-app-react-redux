@@ -1,0 +1,64 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-bottom: 10px;
+}
+form .submit{
+    background: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.add-post{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-table{
+    text-align: left;
+    border-collapse: collapse;
+}
+.contact-table thead tr th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.contact-table td, .contact-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.contact-table tbody tr:nth-child(even){background-color: #f2f2f2;}
+  
+.contact-table tr:hover {background-color: #ddd;}
+
+.edit{
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65);
+    padding: 5px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.delete{
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(202, 60, 60);
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+}
+
