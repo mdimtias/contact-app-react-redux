@@ -29,5 +29,11 @@ npm install
 * **React:** A JavaScript library for building user interfaces.
 * **Redux:** A state management library for managing application data.
 
+## Usage
+1. To view the list of contacts, navigate to the home page.
+2. To add a new contact, fill the form show the website top section.
+3. To update a contact, click on the edit button.
+4. To delete a contact, click on the delete button.
+
 ## License
 This project is licensed under the MIT License.
